@@ -5,6 +5,13 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "strict": true,
+    "baseUrl":"./src",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@global/*": ["global/*"],
+      "@hooks/*": ["hooks/*"],
+      "@tools/*": ["tools/*"],
+    },
     "jsx": "preserve",
     "resolveJsonModule": true,
     "isolatedModules": true,
